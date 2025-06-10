@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Morgan Music</title>
+  <link rel="stylesheet" href="funcionalidades.css" />
+  <style>
+    main {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #05ef0d;
+      text-shadow: 0 0 8px rgba(5, 239, 13, 0.6);
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #ccc;
+      font-size: 1.2em;
+      margin-bottom: 40px;
+    }
+
+    .botones-inicio a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 25px;
+      background-color: #05ef0d;
+      color: black;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .botones-inicio a:hover {
+      background-color: #35c253;
+    }
+  </style>
+</head>
+<body>
+  <header class="top-bar">
+    <div class="logo">
+      <img src="https://tr.rbxcdn.com/180DAY-40197fc2363c5b3694a1598ee5caceac/420/420/Image/Png/noFilter" alt="Morgan Music" />
+    </div>
+    <nav class="nav-links">
+      <a href="login.html">Iniciar sesión</a>
+      <a href="pagina.html">Inicio</a>
+      <a href="reproductor.html">Reproductor</a>
+      <a href="album.html">Álbum ATP</a>
+    </nav>
+  </header>
+
+  <main role="main">
+    <h1>Bienvenido a Morgan Music</h1>
+    <p>Explora, escucha y disfruta de la mejor música.</p>
+
+    <div class="botones-inicio">
+      <a href="login.html" aria-label="Ir a la página de inicio de sesión">Iniciar sesión</a>
+      <a href="pagina.html" aria-label="Ir a las recomendaciones de canciones">Explorar canciones</a>
+      <a href="reproductor.html" aria-label="Ir al reproductor de música">Ir al reproductor</a>
+      <a href="album.html" aria-label="Ir al álbum ATP de NSQK">Ver álbum ATP</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>2025 Morgan Music. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
